@@ -16,4 +16,4 @@ use App\Http\Controllers\BudgetController;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::post('/create',[BudgetController::class, 'create']);
+// Route::post('/create',[BudgetController::class, 'create']);
